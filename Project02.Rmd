@@ -55,6 +55,20 @@ Each student will be expected to complete the following tasks to earn 85% of the
 - Read and discuss your paper with your group partner
   + Focus on the methods and results
   + For each conclusion evaluate the strength of the supporting evidence
+
+#Methods and results (basic):
+Started with 88,000 chemicals put into wells with C. elegans
+115 statistically extended life 
+They chose one that that extended life by 20%-- why? There were some that extended it more. This one is structurally related to compounds used as antidepressants in humans. Specifically impacts serotinin signialing.
+Chose 20 compounds that influence serotonin signaling. Of these 4 increased lifespan by 20-33%(is this significant)? These are a lot like 2 drugs Miaserin (used for humans) and methiotherpin. 
+Investigated these further. 
+Table 1. looks important- I'm a little confused by number of experiments and number of animals 
+
+
+
+  
+  
+  
 - Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat)
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
