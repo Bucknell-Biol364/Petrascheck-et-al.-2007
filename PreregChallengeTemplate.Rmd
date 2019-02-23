@@ -18,14 +18,14 @@ knitr::opts_chunk$set(echo = F)
 ## Study Information
 
 ### 1.	Title 
-
+An antidepressant that extends lifespan in adult Caenorhabditis elegans
 
 
 ### 2.	Authorship
 
-Author A^1^ 
+Author A^1^ Michael Petrascheck, Xiaolan Ye, and Linda B. Buck
 
-^1^ Affiliation A
+^1^ Affiliation A Howard Hughes Medical Institute 
 
 ### 3.	Research Questions 
 
