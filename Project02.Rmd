@@ -57,27 +57,42 @@ Each student will be expected to complete the following tasks to earn 85% of the
   + For each conclusion evaluate the strength of the supporting evidence
 
 #Methods and results (basic):
-Started with 88,000 chemicals put into wells with C. elegans
-115 statistically extended life 
-They chose one that that extended life by 20%-- why? There were some that extended it more. This one is structurally related to compounds used as antidepressants in humans. Specifically impacts serotinin signialing.
-Chose 20 compounds that influence serotonin signaling. Of these 4 increased lifespan by 20-33%(is this significant)? These are a lot like 2 drugs Miaserin (used for humans) and methiotherpin. 
-Investigated these further. 
+-Started with 88,000 chemicals put into wells with C. elegans
+-115 statistically extended life 
+-They chose one that that extended life by 20%-- why? There were some that extended it more. -This one is structurally related to compounds used as antidepressants in humans. Specifically impacts serotinin signialing.
+-Chose 20 compounds that influence serotonin signaling. Of these 4 increased lifespan by 20-33%(is this significant)? These are a lot like 2 drugs Miaserin (used for humans) and methiotherpin. 
+-Investigated these further. 
 Table 1. looks important- I'm a little confused by number of experiments and number of animals 
-
-
-
-  
   
   
 - Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat)
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
+  
+  
 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
+
+#it is likely these analyese could be repeated since they only used one test the log-rank test Mantel–Haenszel test
+http://www.biostathandbook.com/cmh.html
+  
+  
 - For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
+  
+#The biggest question I have regarding the research is centered around this startment from the online materials: 
+Statistical analysis
+STATA8 software was used for analysis. Comparisons and P value calculations were made between treated and untreated animals of the same strain using the log-rank test (Mantel–Haenszel). We observed the death of 98.6% of the animals (excluding screen). Animals that were still alive at the end of an experiment (1.4%) were analysed as alive up to this point with unknown time of death (censoring). Wells containing more than 19 animals were excluded from the analysis.
+
+It is clear looking at the supplementary materials that most treatments had less individuals than in the treatment group than the control. Was this due to death of those in the treatment?
+
+I am also curious about pseudo replication in well plate. 
+
+Also of concern is 
+
+
 - Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
 - Present summary of reproducibility assessment in class
