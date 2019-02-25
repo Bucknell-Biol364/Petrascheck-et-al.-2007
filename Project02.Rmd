@@ -74,9 +74,9 @@ Table 1. looks important- I'm a little confused by number of experiments and num
   + If data or methods are not available, look for follow-up studies that provide the required details
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
-#it is likely these analyese could be repeated since they only used one test the log-rank test Mantel–Haenszel test
+#It is likely these analyese could be repeated since they only used one test: the log-rank test Mantel–Haenszel test
 http://www.biostathandbook.com/cmh.html
-  
+However, since they have so many treatments I'm not positive this was the best test, though I'm not a biostats expert.   
   
 - For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
@@ -88,9 +88,10 @@ STATA8 software was used for analysis. Comparisons and P value calculations were
 
 It is clear looking at the supplementary materials that most treatments had less individuals than in the treatment group than the control. Was this due to death of those in the treatment?
 
-I am also curious about pseudo replication in well plate. 
+I am also curious about pseudo-replication in well plate. 
 
-Also of concern is 
+Also of concern is if standard methods were used.
+eg  "The fraction of animals alive was scored on the basis of body movement." Is this typical for C. elegans?
 
 
 - Design a follow-up study to replicate the most crucial experiment
@@ -101,4 +102,9 @@ Each group should use an **Acknowledgements** section to document the participat
 
 Additional credit will be awarded for providing assistance to other groups and for completion of the analysis that supports the most essential conclusion.
 
-
+**Acknowledgements:** 
+Cheyenne:
+-nature reporting summary
+-analysis research
+-
+Ian: 
