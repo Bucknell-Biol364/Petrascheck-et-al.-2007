@@ -65,12 +65,12 @@ Each student will be expected to complete the following tasks to earn 85% of the
 Table 1. looks important- I'm a little confused by number of experiments and number of animals 
   
   
-- Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat)
+- 1) Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat) 
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
   
   
-- Determine if you could repeat the analysis that is most essential to conclusions of the paper
+2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
@@ -78,7 +78,7 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 http://www.biostathandbook.com/cmh.html
 However, since they have so many treatments I'm not positive this was the best test, though I'm not a biostats expert.   
   
-- For each Questionable Research Practice discussed in Fraser *et al*:
+- 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
   
@@ -94,9 +94,25 @@ Also of concern is if standard methods were used.
 eg  "The fraction of animals alive was scored on the basis of body movement." Is this typical for C. elegans?
 
 
-- Design a follow-up study to replicate the most crucial experiment
+- 3) For each Questionable Research Practice discussed in Fraser *et al*:
+  + Find evidence to exclude this QRP, or
+  + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
+1- unreported values
+2- unreported covariates
+3- harking
+4- unreported models
+5- rounding ps
+6- excluding data
+7- adding data
+8- switching analyses
+9- undisclosed problems
+10- fabrication 
+
+
+- 4) Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
-- Present summary of reproducibility assessment in class
+  
+- 5) Present summary of reproducibility assessment in class
 
 Each group should use an **Acknowledgements** section to document the participation of each member and the collaboration within and between groups.
 
@@ -108,3 +124,5 @@ Cheyenne:
 -analysis research
 -
 Ian: 
+
+Jordan and Matt for summary form and organization tips
