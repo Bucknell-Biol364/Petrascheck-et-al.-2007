@@ -100,6 +100,7 @@ eg  "The fraction of animals alive was scored on the basis of body movement." Is
 1- unreported values
 2- unreported covariates
 3- harking
+Yes... used many chemicals and it just so happened that the antidepressant showed interesting results. 
 4- unreported models
 5- rounding ps
 6- excluding data
