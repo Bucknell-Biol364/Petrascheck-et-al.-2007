@@ -70,7 +70,7 @@ Table 1. looks important- I'm a little confused by number of experiments and num
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
   
   
-2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
+- 2) Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
@@ -103,10 +103,15 @@ eg  "The fraction of animals alive was scored on the basis of body movement." Is
 4- unreported models
 5- rounding ps
 6- excluding data
+Concern that they excluded data from nematodes that died quickly
 7- adding data
+Number of experiments was not constant, unsure if they added more experiments as needed?
 8- switching analyses
+N/A only used one analysis
 9- undisclosed problems
-10- fabrication 
+Potentially..
+10- fabrication
+Unlikely...
 
 
 - 4) Design a follow-up study to replicate the most crucial experiment
