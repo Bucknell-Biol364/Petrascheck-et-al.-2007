@@ -99,7 +99,10 @@ http://www.biostathandbook.com/cmh.html
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
   
-#The biggest question I have regarding the research is centered around this startment from the online materials: 
+  
+#Initial thoughts
+
+The biggest question I have regarding the research is centered around this startment from the online materials: 
 Statistical analysis
 STATA8 software was used for analysis. Comparisons and P value calculations were made between treated and untreated animals of the same strain using the log-rank test (Mantel–Haenszel). We observed the death of 98.6% of the animals (excluding screen). Animals that were still alive at the end of an experiment (1.4%) were analysed as alive up to this point with unknown time of death (censoring). Wells containing more than 19 animals were excluded from the analysis.
 
@@ -114,16 +117,44 @@ eg  "The fraction of animals alive was scored on the basis of body movement." Is
 - 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
+
 1- unreported values
+They did not report any specifics on the 88,000 compounds they tested in their initial screen. Even more concerning was their lack of information on the selection criteria for the compounds they decided to retest in larger populations beyond the generic statement of "On the basis of the fraction of live animals per well relative to controls".They also failed to report anything on what the other 113 compounds were that significantly increased lifespan and instead only showed results for serotonin related treatments and moved forward with that despite quoting that some compounds increased lifespan by a large margin more than serotonin related treatments.
+
+They should have provided data on the specifics of each treatment they screened with. 
+
 2- unreported covariates
+Although it seems unlikely, since their readout for survivial was movement it could be possible that some of their drug treatments could have affected movement and therefore the change in lifespan associated with the drugs may be realted more to movement than to actual changes in longevity. 
+
+They should have assessed the effect sof these drugs on movement in a different test. 
+
 3- harking
+Yes... used many chemicals and it just so happened that the antidepressant showed interesting results. They were working wiht a screen of close to 88,000 compounds and it seems unlikely that they had a hypothesis of the importance of serotonin related treatments prior to such a screen. 
+
+
 4- unreported models
+N/A they worked exclusively in c-elegans and reported on their survivorship model
+
 5- rounding ps
+It is possible that they rounded p-values as the in depth report for each serotonin related trial only shows p-values to two significant figures an dhtere are p-values of exactly .05 for some treatments. 
+
+They should have reported p-values to more decimal places
+
 6- excluding data
+Concern that they excluded data from nematodes that died quickly. SHould have been more transparent about their protocol for deciding exactly when a trail started/ended. 
+
 7- adding data
+Number of experiments was not constant, unsure if they added more experiments as needed? Solved by being transparent about methods. Eg we attempted to use 150 nematodes for each treatment, any individuals that dies before "adulthood" were not used in the assay."
+
 8- switching analyses
+N/A only used one analysis that they reported:log-rank test Mantel–Haenszel test
+
 9- undisclosed problems
-10- fabrication 
+Potentially... such as young nematodes dying. 
+
+ 
+10- fabrication
+Unlikely...
 
 
 - 4) Design a follow-up study to replicate the most crucial experiment
