@@ -68,20 +68,37 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 - 1) Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat) 
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
-See our repo  
   
-- 2) Determine if you could repeat the analysis that is most essential to conclusions of the paper
+  
+2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
+  
+#The analysis they used to determine the signifigance of the effects of the drugs they tested is called the log rank test or Mantel-Hantzael test. This test is well designed for asssessing survivorship because it allows one to make comparisons of the number of binary events between a treated and control group at multiple time points. In the case of survivorship, the binary evet is death and thus it can account for differences in the number of deaths between two groups at every time that the number of surviving subjects are counted. This treats every time point like an independent sample and allows an  investigator to compare and weight the differences of two groups each time there are events and then sum their contributions to an overall difference in a similar manner to the chi squared analysis. 
+
+#In order to complete this analysis one needs to essentailly construct two by two tables at every time point:
+#       Control   Treatment   
+#Alive    x           x
+
+#Dead     y           y
+
+#In this paper the data they report only includes the mean lifespan in days rather than the breakdown of the number of death events and surviving c elegans for each day that they were measured. Since they only report these summary statistics along with the corresponding p-values, it is imposible to replicate their Mantel-Haentzel analysis that yielded those p-values.
+
+https://www.biochemia-medica.com/en/journal/24/1/10.11613/BM.2014.003
+http://www.math.ucsd.edu/~rxu/math284/slect3.pdf
+https://www.youtube.com/watch?v=YjU2sFHeaBE
+
+#Although there are additional studies from this lab that use the same c-elegans survivorship paradigm and use the same mantel haetzel test, they do not prpovide the missing raw data from this study required to perform the analysis independently. 
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
-#While this paper only uses one test: the log-rank test Mantel–Haenszel test, this test require the raw data. The only data available is means, not daily observations. To work with that data a Wilcoxian test may be able to be used. 
+#The major missing information is the breakdown of the death events and survivorship by day for each drug they tested as well as the complete screen of compounds they tested as opposed to just including the serotonin related tests. 
+
 http://www.biostathandbook.com/cmh.html
+   
   
 - 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
-
-Initial thoughts:   
+  
 #The biggest question I have regarding the research is centered around this startment from the online materials: 
 Statistical analysis
 STATA8 software was used for analysis. Comparisons and P value calculations were made between treated and untreated animals of the same strain using the log-rank test (Mantel–Haenszel). We observed the death of 98.6% of the animals (excluding screen). Animals that were still alive at the end of an experiment (1.4%) were analysed as alive up to this point with unknown time of death (censoring). Wells containing more than 19 animals were excluded from the analysis.
@@ -100,19 +117,13 @@ eg  "The fraction of animals alive was scored on the basis of body movement." Is
 1- unreported values
 2- unreported covariates
 3- harking
-Yes... used many chemicals and it just so happened that the antidepressant showed interesting results. 
 4- unreported models
 5- rounding ps
 6- excluding data
-Concern that they excluded data from nematodes that died quickly. SHould have been more transparent about their protocol for deciding exactly when a trail started/ended. 
 7- adding data
-Number of experiments was not constant, unsure if they added more experiments as needed? Solved by being transparent about methods. Eg we attempted to use 150 nematodes for each treatment, any individuals that dies before "adulthood" were not used in the assay."
 8- switching analyses
-N/A only used one analysis that they reported:log-rank test Mantel–Haenszel test
 9- undisclosed problems
-Potentially... such as young nematodes dying. 
-10- fabrication
-Unlikely...
+10- fabrication 
 
 
 - 4) Design a follow-up study to replicate the most crucial experiment
