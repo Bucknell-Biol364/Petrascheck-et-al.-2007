@@ -73,24 +73,24 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   
-#The analysis they used to determine the signifigance of the effects of the drugs they tested is called the log rank test or Mantel-Hantzael test. This test is well designed for asssessing survivorship because it allows one to make comparisons of the number of binary events between a treated and control group at multiple time points. In the case of survivorship, the binary evet is death and thus it can account for differences in the number of deaths between two groups at every time that the number of surviving subjects are counted. This treats every time point like an independent sample and allows an  investigator to compare and weight the differences of two groups each time there are events and then sum their contributions to an overall difference in a similar manner to the chi squared analysis. 
+The analysis they used to determine the signifigance of the effects of the drugs they tested is called the log rank test or Mantel-Hantzael test. This test is well designed for asssessing survivorship because it allows one to make comparisons of the number of binary events between a treated and control group at multiple time points. In the case of survivorship, the binary evet is death and thus it can account for differences in the number of deaths between two groups at every time that the number of surviving subjects are counted. This treats every time point like an independent sample and allows an  investigator to compare and weight the differences of two groups each time there are events and then sum their contributions to an overall difference in a similar manner to the chi squared analysis. 
 
-#In order to complete this analysis one needs to essentailly construct two by two tables at every time point:
-#       Control   Treatment   
-#Alive    x           x
+In order to complete this analysis one needs to essentailly construct two by two tables at every time point:
+       Control   Treatment   
+Alive    x           x
 
-#Dead     y           y
+Dead     y           y
 
-#In this paper the data they report only includes the mean lifespan in days rather than the breakdown of the number of death events and surviving c elegans for each day that they were measured. Since they only report these summary statistics along with the corresponding p-values, it is imposible to replicate their Mantel-Haentzel analysis that yielded those p-values.
+In this paper the data they report only includes the mean lifespan in days rather than the breakdown of the number of death events and surviving c elegans for each day that they were measured. Since they only report these summary statistics along with the corresponding p-values, it is imposible to replicate their Mantel-Haentzel analysis that yielded those p-values.
 
 https://www.biochemia-medica.com/en/journal/24/1/10.11613/BM.2014.003
 http://www.math.ucsd.edu/~rxu/math284/slect3.pdf
 https://www.youtube.com/watch?v=YjU2sFHeaBE
 
-#Although there are additional studies from this lab that use the same c-elegans survivorship paradigm and use the same mantel haetzel test, they do not prpovide the missing raw data from this study required to perform the analysis independently. 
+Although there are additional studies from this lab that use the same c-elegans survivorship paradigm and use the same mantel haetzel test, they do not prpovide the missing raw data from this study required to perform the analysis independently. 
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
-#The major missing information is the breakdown of the death events and survivorship by day for each drug they tested as well as the complete screen of compounds they tested as opposed to just including the serotonin related tests. 
+The major missing information is the breakdown of the death events and survivorship by day for each drug they tested as well as the complete screen of compounds they tested as opposed to just including the serotonin related tests. 
 
 http://www.biostathandbook.com/cmh.html
    
