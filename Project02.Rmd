@@ -68,20 +68,20 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 - 1) Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat) 
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
-  
+See our repo  
   
 - 2) Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   + If follow-up studies are not available, describe the missing information needed to perform the analysis
 
-#It is likely these analyese could be repeated since they only used one test: the log-rank test Mantel–Haenszel test
+#While this paper only uses one test: the log-rank test Mantel–Haenszel test, this test require the raw data. The only data available is means, not daily observations. To work with that data a Wilcoxian test may be able to be used. 
 http://www.biostathandbook.com/cmh.html
-However, since they have so many treatments I'm not positive this was the best test, though I'm not a biostats expert.   
   
 - 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
-  
+
+Initial thoughts:   
 #The biggest question I have regarding the research is centered around this startment from the online materials: 
 Statistical analysis
 STATA8 software was used for analysis. Comparisons and P value calculations were made between treated and untreated animals of the same strain using the log-rank test (Mantel–Haenszel). We observed the death of 98.6% of the animals (excluding screen). Animals that were still alive at the end of an experiment (1.4%) were analysed as alive up to this point with unknown time of death (censoring). Wells containing more than 19 animals were excluded from the analysis.
@@ -104,13 +104,13 @@ Yes... used many chemicals and it just so happened that the antidepressant showe
 4- unreported models
 5- rounding ps
 6- excluding data
-Concern that they excluded data from nematodes that died quickly
+Concern that they excluded data from nematodes that died quickly. SHould have been more transparent about their protocol for deciding exactly when a trail started/ended. 
 7- adding data
-Number of experiments was not constant, unsure if they added more experiments as needed?
+Number of experiments was not constant, unsure if they added more experiments as needed? Solved by being transparent about methods. Eg we attempted to use 150 nematodes for each treatment, any individuals that dies before "adulthood" were not used in the assay."
 8- switching analyses
-N/A only used one analysis
+N/A only used one analysis that they reported:log-rank test Mantel–Haenszel test
 9- undisclosed problems
-Potentially..
+Potentially... such as young nematodes dying. 
 10- fabrication
 Unlikely...
 
