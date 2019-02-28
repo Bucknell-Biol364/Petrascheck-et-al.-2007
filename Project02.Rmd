@@ -68,7 +68,8 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 - 1) Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat) 
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
-  
+KF: Good work on this. The explanations were very helpful (although tiny!)
+The only missing information that I noticed was about the strain of C. elegans used. Was there any info on this in the paper?
   
 2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
@@ -94,6 +95,7 @@ The major missing information is the breakdown of the death events and survivors
 
 http://www.biostathandbook.com/cmh.html
    
+KF: Nice explanation of the test used and the reasoning behind it.  
   
 - 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
@@ -102,21 +104,24 @@ http://www.biostathandbook.com/cmh.html
   
 #Initial thoughts
 
-The biggest question I have regarding the research is centered around this startment from the online materials: 
+The biggest question I have regarding the research is centered around this statement from the online materials: 
 Statistical analysis
 STATA8 software was used for analysis. Comparisons and P value calculations were made between treated and untreated animals of the same strain using the log-rank test (Mantel–Haenszel). We observed the death of 98.6% of the animals (excluding screen). Animals that were still alive at the end of an experiment (1.4%) were analysed as alive up to this point with unknown time of death (censoring). Wells containing more than 19 animals were excluded from the analysis.
 
 It is clear looking at the supplementary materials that most treatments had less individuals than in the treatment group than the control. Was this due to death of those in the treatment?
 
 I am also curious about pseudo-replication in well plate. 
+KF: That is an interesting question. 
 
 Also of concern is if standard methods were used.
 eg  "The fraction of animals alive was scored on the basis of body movement." Is this typical for C. elegans?
-
+KF: Do you think that this might be subjective? If so, it would be important to blind the experimenters to the treatment, right?
 
 - 3) For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
+  
+KF: Good work on this section.  
 
 1- unreported values
 They did not report any specifics on the 88,000 compounds they tested in their initial screen. Even more concerning was their lack of information on the selection criteria for the compounds they decided to retest in larger populations beyond the generic statement of "On the basis of the fraction of live animals per well relative to controls".They also failed to report anything on what the other 113 compounds were that significantly increased lifespan and instead only showed results for serotonin related treatments and moved forward with that despite quoting that some compounds increased lifespan by a large margin more than serotonin related treatments.
@@ -159,6 +164,7 @@ Unlikely...
 
 - 4) Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
+KF: This has just been started but a lot of work remains.  
   
 - 5) Present summary of reproducibility assessment in class
 
@@ -172,5 +178,6 @@ Cheyenne:
 -analysis research
 -
 Ian: 
+?
 
 Jordan and Matt for summary form and organization tips
