@@ -2,7 +2,7 @@
 title: "Group Project 2"
 subtitle: "Biology 368/664 Bucknell University"
 output: html_notebook
-author: Prof. Ken Field
+author: Cheyenne Moore and Ian
 date: 19 Feb 2019
 ---
 
@@ -110,7 +110,7 @@ STATA8 software was used for analysis. Comparisons and P value calculations were
 
 It is clear looking at the supplementary materials that most treatments had less individuals than in the treatment group than the control. Was this due to death of those in the treatment?
 
-I am also curious about pseudo-replication in well plate. 
+I am also curious about pseudo-replication in well plates. 
 KF: That is an interesting question. 
 
 Also of concern is if standard methods were used.
