@@ -149,13 +149,15 @@ In this section, you will be asked to describe the overall design of your study.
 
 *16.1.	Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.*
 
+There are several experiments withine this paper. The first batch of experiments involved an assay of 88,000 chemical compounds (sample size of min 60 C. elegans post juvenille die off).
 
+This was followed by assay of serotonin affecting compounds. 20 compunds were tested, some at 2 and 3 different concentrations. There was also a control included. To use the desired test the amount of living and dead C. elegans must be recorded every day. These treatments should be randomized in well-plates  and number of C. elegans used for each treatment should be held relatively constant eg ~200 per treatment type and if the sample size falls below 160 (loss of 20%) pre-adulthood then the trial will be discarded. Also chemical amounts and number of different chemicals will be predetermined. Chemicals will be added once adulthood is reached, ~ 68h after seeding. Any subsequent assays with C. elegans with knockedout genes should be done in the same fashion. For each treatment type at least two strains of C. elegans should be used (two batches of 200). 
 
 ### 17.	Randomization
 
 *17.1.	If you are doing a randomized study, how will you randomize, and at what level?*
 
-The assignment of groups of c-elegans in a givne well to a specific treatment or as a control group will be randomized.
+The assignment of groups of C. elegans in a givne well to a specific treatment or as a control group will be randomized.
 
 ## Analysis Plan
 
@@ -178,7 +180,7 @@ We will use the mantel Haetzel model to assess differences in longevity between 
 ### 20.	Follow-up analyses
 
 *20.1.	If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions. Remember that any analyses not specified in this research plan must be noted as exploratory.*
-
+Subgroup analyses will be appropriate for the different strains of C. elegans. 
 
 
 ### 21.	Inference criteria
@@ -190,20 +192,20 @@ We will use the mantel Haetzel model to assess differences in longevity between 
 ### 22.	Data exclusion
 
 *22.1.	How will you determine what data or samples, if any, to exclude from your analyses? How will outliers be handled?*
-
+Any samples with a deathrate >20% before adulthood/treatment will be discarded. 
   
 
 ### 23.	Missing data
 
 *23.1.	How will you deal with incomplete or missing data?*
-
+If a trial fails (eg example above) it will be rerun with C. elegans from the same lineage. If it is a different generation, this will be noted in analysis. 
 
 
 ### 24.	Exploratory analysis (optional)
 
 *24.1.	If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time.* 
 
-We will be performing an exploratory analysis fo our initial screen to look for hte most impactful treatments. 
+We will be performing an exploratory analysis fo our initial screen to look for the most impactful treatments. This will follow the breakdown we discussed in lecture. We will also use a portion of the data at the one week, two week and three week mark for exploratory analyses.  
 
 ## Script (Optional) 
 
