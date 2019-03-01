@@ -69,7 +69,7 @@ Table 1. looks important- I'm a little confused by number of experiments and num
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
 KF: Good work on this. The explanations were very helpful (although tiny!)
-The only missing information that I noticed was about the strain of C. elegans used. Was there any info on this in the paper?
+The only missing information that I noticed was about the strain of C. elegans used. Was there any info on this in the paper?-- Added this
   
 2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
@@ -176,8 +176,11 @@ Additional credit will be awarded for providing assistance to other groups and f
 Cheyenne:
 -nature reporting summary
 -analysis research
--
+-QRP 6-10
+-pre-reg even items
 Ian: 
-?
+-Repeat analysis research
+-QRP 1-5
+-prereg odd items
 
 Jordan and Matt for summary form and organization tips
