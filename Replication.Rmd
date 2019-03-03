@@ -1,5 +1,7 @@
 ---
 title: "Replication"
+author: "Cheyenne Moore and Ian"
+date: "3/5/2019"
 output: html_document
 ---
 
@@ -7,22 +9,19 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+Purpose of this document: identify and describe the subsequent analyses that have attempted to replicate the study that you were assigned
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I was able to find two studies that attempted to replicate Petrascheck et al.'s (2007) work. Both are located in this repo, named as QRP_*author_year*
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The main issue that both of these papers find in the reproducibility of this study and others involving C. elegans is the strain of the organisms used. I was unaware of the variety of strain initially and glossed over them a bit. It was clear that different knockout strains were used, but I did not consider the impact of various strains the need for a consistent strain to be used in science (like HeLa cells, though recently issues have been found with those as well).
 
-```{r cars}
-summary(cars)
-```
+##Lithgow et al. 2017
+Reports a trend of nematode papers showing that a chemical extends the organism's lifespan, but then another lab being unable to reproduce the results. The paper we read Petrascheck et al. (2007) was one of the examples. Published results include that antidepressants extend the lifespan of C. elegans. Though Zarse and Ristow (2008) failed to replicate the results. This paper (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004062), also in the repo, showed a decrease in lifespan under the same treatment conditions with the same study organism. The crux of this paper is that methods are a big deal in replicating results. 
+Important quotes:
+"In the lab, these worms live on agar plates and are fed a diet of live bacteria. Test com- pounds are mixed into the agar or feedstock, and longevity is assessed by mobility — if a worm moves when prodded with a metal wire, it’s alive! This technique has been used by worm researchers for more than 25 years."
+This is the gist the methods, but researchers made an effort to standardize all aspects, from reagents, to handling. While this did decrease discrepancies, they found that variance in strain of C. elegans (and C. briggsae, which looks like C. elegans, but is found in a different organism) is likely to blame for a portion of the variance. 
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+##Lucanic et al. 2017
+This paper is a very scientific look at the world of Caenorhabditis. While they do not cite Petrascheck et al. (2007) as anything more than a data point of a difficult to reproduce study:
+"Our focus on rigorously adhering to defined methods to reduce variability between sites necessitated making choices about specific methodologies for which there was no standard across the field. In particular, these related to the use and dosage of FUdR, use of live bacteria and the method of chemical delivery, all of which have previously been found to be confounding factors in lifespan studies42–46" -Petrascheck et al. 2007 is reference number 44. 
+One of the first ideas introduced is that there are "22 Caenorhabditis strains spanning 3 species" and this can lead to a lot of unforeseen variance. The team of researchers who wrote this paper determined that genetics are partially responsible for the variation seen. They also note variation in "details of media preparation, bacterial growth, animal handling and experimental protocols" between research groups.They found high variability in adult survival between strain, especially varibale between reprodution methods (selfing vs sexual). 
