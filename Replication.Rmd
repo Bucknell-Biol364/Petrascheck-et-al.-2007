@@ -21,6 +21,10 @@ Important quotes:
 "In the lab, these worms live on agar plates and are fed a diet of live bacteria. Test compounds are mixed into the agar or feedstock, and longevity is assessed by mobility — if a worm moves when prodded with a metal wire, it’s alive! This technique has been used by worm researchers for more than 25 years."
 This is the gist the methods, but researchers made an effort to standardize all aspects, from reagents, to handling. While this did decrease discrepancies, they found that variance in strain of C. elegans (and C. briggsae, which looks like C. elegans, but is found in a different organism) is likely to blame for a portion of the variance. 
 
+#Zarse and Ristow 2008
+Tried to repeat Petrascheck at el. (2007) research with same methods etc. but observed a decrease in lifespan where Petrascheck et al. (2007) observed an increase. 
+
+
 ##Lucanic et al. 2017
 This paper is a very scientific look at the world of Caenorhabditis. While they do not cite Petrascheck et al. (2007) as anything more than a data point of a difficult to reproduce study:
 "Our focus on rigorously adhering to defined methods to reduce variability between sites necessitated making choices about specific methodologies for which there was no standard across the field. In particular, these related to the use and dosage of FUdR, use of live bacteria and the method of chemical delivery, all of which have previously been found to be confounding factors in lifespan studies42–46" -Petrascheck et al. 2007 is reference number 44. 
