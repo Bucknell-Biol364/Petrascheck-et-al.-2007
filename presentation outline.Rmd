@@ -1,0 +1,34 @@
+---
+title: "presentation outline"
+author: "Cheyenne Moore and Ian"
+date: "3/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Our paper (1min)
+
+Nature 
+2007 
+Petrascheck et al. 
+
+##What was questionable? (2 min)
+Ian: 
+-The data and statistical test. Explain Mantel-Haentzelman log rank test and how the summary data isn't enough to rerun stats.
+
+-Number or indivuduals per trial variable. 
+
+-Other methods stuff...
+
+##What did other folks find? (2 min)
+Cheyenne:
+- Zarse and Ristow, 2008
+- Lithgow et al. 2017
+- Lucanic et al. 2017
+
+Not just a Caenorhabditis problem, but an issue for anyone using a "lab organism"
+
