@@ -65,6 +65,10 @@ In this section we will ask you to describe how you plan to collect samples, as 
 -	Registration prior to analysis of the data: As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
 
 -	Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Studies that fall into this category are ineligible for the Pre-Reg Challenge. Please contact us (prereg@cos.io) and we will be happy to help you.
+
+We did not find any preregistration data/forms. Though Ian did research on the "norms" for this type of research such as measures of movement being used to quantify survival. 
+
+#Ian:
  
 ### 6.	Explanation of existing data
 
@@ -87,7 +91,7 @@ For each treatment at least 60 C. elegans will be tested at each concentration. 
 ### 9.	Sample size rationale
 
 *9.1.	This could include a power analysis or an arbitrary constraint such as time, money, or personnel.*
-
+This should be done. the authors of the paper did not do this and did not have consistent sample sizes. While some samples were similar in size, there were some trials were the treatment had half as many organism as the control. 
 
 
 ### 10.	Stopping rule
@@ -103,7 +107,8 @@ In this section you can describe all variables (both manipulated and measured va
 ### 11.	Manipulated variables
 
 *11.1.	Describe all variables you plan to manipulate and the levels or treatment arms of each variable. For observational studies and meta-analyses, simply state that this is not applicable.*
-
+-Chemicals (primarily antidepressants) that the C. elegans are exposed to. 
+-Knockout strains of C. elegans as well as "normal" C. elegans
 
 
 ### 12.	Measured variables
