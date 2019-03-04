@@ -71,7 +71,7 @@ Table 1. looks important- I'm a little confused by number of experiments and num
 KF: Good work on this. The explanations were very helpful (although tiny!)
 The only missing information that I noticed was about the strain of C. elegans used. Was there any info on this in the paper?-- Added this
   
-2 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
+-2) Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   
 The analysis they used to determine the signifigance of the effects of the drugs they tested is called the log rank test or Mantel-Hantzael test. This test is well designed for asssessing survivorship because it allows one to make comparisons of the number of binary events between a treated and control group at multiple time points. In the case of survivorship, the binary evet is death and thus it can account for differences in the number of deaths between two groups at every time that the number of surviving subjects are counted. This treats every time point like an independent sample and allows an  investigator to compare and weight the differences of two groups each time there are events and then sum their contributions to an overall difference in a similar manner to the chi squared analysis. 
