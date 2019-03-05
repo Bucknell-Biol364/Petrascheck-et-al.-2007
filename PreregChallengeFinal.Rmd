@@ -1,0 +1,244 @@
+---
+title: "prereg doc for Petrascheck et al. 2007"
+author: "Cheyenne Moore and Ian"
+date: "3/5/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r packages}
+# Load packages
+n/a
+
+```
+
+## Study Information
+
+### 1.	Title 
+An antidepressant that extends lifespan in adult Caenorhabditis elegans
+
+
+### 2.	Authorship
+
+Author A^1^ Michael Petrascheck, Xiaolan Ye, and Linda B. Buck
+
+^1^ Affiliation A Howard Hughes Medical Institute 
+
+### 3.	Research Questions 
+
+*3.1.	Please list each research question included in this study.*
+1. Do any of 88,000 compounds affect the lifespan of C.elegans?
+2. Do antidepressants specifically increase lifespan in C. elegans?
+3. Do these antidepressants act at serotonin receptors and if so at which types?
+4. Do the antidepressants act as an antagonist at serotonin receptors 3 and 4 specifically? Do they do so to the same extent in both types?
+5. Does mianserin increase lifespan through known mechanisms of longevity related to dietary restriction? 
+
+
+### 4.	Hypotheses
+
+*4.1.	For each of the research questions listed in the previous section, provide one or multiple specific and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here.*
+
+1. A subset of chemical compounds will significantly extend the lifespan of C. elegans compared to C. elegans raised not in the presence of chemicals. This question is one directional, though it could be two, however it is more likely that a chemical of unknow effect will shorten lifespan and it seems as though the authors only care about extension. 
+2. Chemical compounds used as antidepressants in humans will significantly extend the lifespan of C. elegans. Again, this is worded as a one way hypothesis, though I think it could be a two way test. 
+3. Antidepressant compounds act as antagonists to seratonin receptors in C. elegans. (This would be tested with knockouts of several receptors) This is a two way test.
+4. Antidepressant compounds impact serotonin receptor 3 a different amount than receptor 4 of C. elegans (or the inverse could be asserted). This would be a two way test. 
+5. Maiserin increases lifespan in C. elegans through known mechanisms of longevity related to dietary restriction. This is a one way test. 
+ 
+## Sampling Plan
+
+In this section we will ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study.
+
+### 5.	Existing data
+
+*5.1.	Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io).*
+
+
+*****- Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized. 
+
+- Registration prior to any human observation of the data: As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
+
+- Registration prior to accessing the data: As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
+
+-	Registration prior to analysis of the data: As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
+
+-	Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Studies that fall into this category are ineligible for the Pre-Reg Challenge. Please contact us (prereg@cos.io) and we will be happy to help you.
+
+We did not find any preregistration data/forms. Though Ian did research on the "norms" for this type of research such as measures of movement being used to quantify survival. 
+
+
+ 
+### 6.	Explanation of existing data
+
+*6.1.	If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.*  
+Not applicable to this study. 
+
+
+### 7.	Data collection procedures.
+
+*7.1.	Please describe the process by which you will collect your data. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that don’t include human subjects, include information about how you will collect samples, duration of data gathering efforts, source or location of samples, or batch numbers you will use.* These experiments will involve longevity analysis and survivorship curves so we will need to collect data on daily survival. We will be using a c-elegans model because they are conducive to the high throughput required and can be readily assessed for survival. Subjects will be age synchronized and excluded if they die within 68 hours of introuction to test wells. The 68 hour time point was selected as it marks the transition to adulthood of the animals. At the 68 hour time point drugs will be applied to test groups and control groups will receive a vehicle treatment to account for the additional manipulation of the test group. Data will be gathered until all c-elegans in both treatment and control groups have died. Each well of a 96 well plate will contain 12 age synchronized c-elegans larva. 
+
+
+
+### 8.	Sample size
+
+*8.1.	Describe the sample size of your study. How many units will be analyzed in the study? This could be the number of people, birds, classrooms, plots, interactions, or countries included. If the units are not individuals, then describe the size requirements for each unit. If you are using a clustered or multilevel design, how many units are you collecting at each level of the analysis?*
+For each treatment at least 60 C. elegans will be tested at each concentration. C. elegans were reared in 384-well plates. Treatments should be randomized in well plates to avoid pseudoreplication. A consistant number of indivuiduals should be used for each treatment type. If >30% of individuals die for a treatment type before adulthood, that set of treatments should be tossed out and redone. 
+
+
+### 9.	Sample size rationale
+
+*9.1.	This could include a power analysis or an arbitrary constraint such as time, money, or personnel.*
+A power analysis should be done to provide evidence for the reliability fo the selected sample size. The authors of the paper did not do this and did not have consistent sample sizes. While some samples were similar in size, there were some trials where the treatment had half as many organism as the control. 
+
+
+### 10.	Stopping rule
+
+*10.1.	If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection.* 
+We will follow the longevity analysis until all individuals have died. 
+ 
+
+## Variables
+
+In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.
+
+### 11.	Manipulated variables
+
+*11.1.	Describe all variables you plan to manipulate and the levels or treatment arms of each variable. For observational studies and meta-analyses, simply state that this is not applicable.*
+-Chemicals (primarily antidepressants) that the C. elegans are exposed to. 
+-Knockout strains of C. elegans as well as "normal" C. elegans
+
+
+### 12.	Measured variables
+
+*12.1.	Describe each variable that you will measure. This will include outcome measures, as well as any predictors or covariates that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.*
+Each day we will measure survival of individuals based on movement of C. elegans. Though with developimg technology there is a more efficient way to do this. 
+Specifically there are emerging methods to assess worm activity in an automated fashion over the entire lifetime of the c elegans in the experiment. This technique known as "the lifespan machine" enables time lapse imaging of wrom movement over the entirety of the worms' lives whcih means there is a complete record of activity and survival for the duration of the experiemnet so that it can be reanalyzed for verification. This is superior to relying on counting movement by hand at regualr intervals that is error prone and does nto capture exact times of death. 
+
+Comparison of methods for assessing c-elegans survivorship:
+https://www.ncbi.nlm.nih.gov/pubmed/24727064
+
+### 13.	Indices
+
+*13.1.	If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method. If you are using a more complicated statistical method to combine measures (e.g. a factor analysis), you can note that here but describe the exact method in the analysis plan section.*
+
+Measurements of indivdual cell calcium responses to serotonin antagonists at serotinin receptors 3 and 4 respectively will be combined into a metric of mean calcium responses and reported as a percentage of activity relative to unrtreated cell activty using the following equation: percentage inhibition = 100 × ((response in the presence of inhibitor)/(uninhibited response)).
+
+## Design Plan
+
+In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration.
+
+### 14.	Study type
+
+*****-	Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
+
+-	Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
+
+-	Meta-Analysis - A systematic review of published studies.
+
+-	Other - please explain.
+
+In our case the assessment of survival requires an experimental design in which various chemical treatments are applied and life span is determined for subjects and compared to control groups that did not receive the treatments. 
+
+### 15.	Blinding
+
+*15.1.	Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply.*
+
+-	No blinding is involved in this study.
+
+-	For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
+
+*****-	Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
+
+*****-	Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
+
+Blinding will enable unbiased assessment of survival if using the manual assessment of movement to determine survival. 
+
+### 16.	Study design
+
+*16.1.	Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.*
+
+There are several experiments withine this paper. The first batch of experiments involved an assay of 88,000 chemical compounds (sample size of min 60 C. elegans post juvenille die off).
+
+This was followed by assay of serotonin affecting compounds. 20 compunds were tested, some at 2 and 3 different concentrations. There was also a control included. To use the desired test the amount of living and dead C. elegans must be recorded every day. These treatments should be randomized in well-plates  and number of C. elegans used for each treatment should be held relatively constant eg ~200 per treatment type and if the sample size falls below 160 (loss of 20%) pre-adulthood then the trial will be discarded. Also chemical amounts and number of different chemicals will be predetermined. Chemicals will be added once adulthood is reached, ~ 68h after seeding. Any subsequent assays with C. elegans with knockedout genes should be done in the same fashion. For each treatment type at least two strains of C. elegans should be used (two batches of 200). 
+
+### 17.	Randomization
+
+*17.1.	If you are doing a randomized study, how will you randomize, and at what level?*
+
+The assignment of groups of C. elegans in a given well to a specific treatment or as a control group will be randomized using random number generators that will correspond to specific treatments. Additionally for treatments that will be tested at multiple doses, the dosage assigned to groups within a given treatment will be assigned randomly on a well by well basis as well.
+
+## Analysis Plan
+
+You may describe one or more confirmatory analysis in this preregistration. Please remember that all analyses specified below must be reported in the final article, and any additional analyses must be noted as exploratory or hypothesis generating.
+
+A confirmatory analysis plan must state up front which variables are predictors (independent) and which are the outcomes (dependent), otherwise it is an exploratory analysis. You are allowed to describe any exploratory work here, but a clear confirmatory analysis is required. 
+
+### 18.	Statistical models
+
+*18.1.	What statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.*
+
+We will use the Mantel Haenszel model to assess differences in longevity between control and treatment groups.
+
+### 19.	Transformations
+
+*19.1.	If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.*
+
+Survival will be a binary response variable based on quantitiative analysis of movement so no coding scheme will be required for categorical variables. Quantitative measurements and analyses of quantitative survivporship data will not require transformation in these experiments. 
+
+### 20.	Follow-up analyses
+
+*20.1.	If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions. Remember that any analyses not specified in this research plan must be noted as exploratory.*
+Subgroup analyses will be appropriate for the different strains of C. elegans. 
+
+
+### 21.	Inference criteria
+
+*21.1.	What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes factors, specific model fit indices), as well as cut-off criterion, where appropriate. Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?*
+
+We will use a chi squared distribution to assess test statistics for each survivorship comparison with the mantel haenzel test. We will then use p-values to  assess the signifigance of our mantel haenzel test results with an alpha value of .05. Complete p-value information will be reported to avoid questionable research practices related to rounding p-values. 
+
+We will want to apply the one sided analysis to allow for a comparison of the hazard over time associated with each treatment. 
+
+
+
+### 22.	Data exclusion
+
+*22.1.	How will you determine what data or samples, if any, to exclude from your analyses? How will outliers be handled?*
+Any samples with a deathrate >20% before adulthood/treatment will be discarded. 
+  
+
+### 23.	Missing data
+
+*23.1.	How will you deal with incomplete or missing data?*
+If a trial fails (eg example above) it will be rerun with C. elegans from the same lineage. If it is a different generation, this will be noted in analysis. 
+
+
+### 24.	Exploratory analysis (optional)
+
+*24.1.	If you plan to explore your data set to look for unexpected differences or relationships, you may describe those tests here. An exploratory test is any test where a prediction is not made up front, or there are multiple possible tests that you are going to use. A statistically significant finding in an exploratory test is a great way to form a new confirmatory hypothesis, which could be registered at a later time.* 
+
+We will be performing an exploratory analysis of our initial screen to look for the most impactful treatments. This will follow the breakdown we discussed in lecture. We will also use a portion of the data at the one week, two week and three week mark for exploratory analyses.  
+
+## Script (Optional) 
+
+The purpose of a fully commented analysis script is to unambiguously provide the responses to all of the questions raised in the analysis section. This step is not common, but we encourage you to try to create an analysis script, refine it using a modeled dataset, and use it in place of your written analysis plan.
+
+### 25.	Analysis scripts (Optional)
+
+*25.1.	(Optional) Upload an analysis script with clear comments. This optional step is helpful in order to create a process that is completely transparent and increase the likelihood that your analysis can be replicated. We recommend that you run the code on a simulated dataset in order to check that it will run without errors.*
+https://stat.ethz.ch/R-manual/R-devel/library/survival/html/survdiff.html
+https://www.rdocumentation.org/packages/survival/versions/2.43-3/topics/survdiff
+ 
+
+## Other
+
+### 26.	Other
+
+*26.1.	If there is any additional information that you feel needs to be included in your preregistration, please enter it here.*
+
+
+## References 
+https://www.nature.com/articles/ncomms14256
